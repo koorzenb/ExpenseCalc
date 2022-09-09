@@ -1,0 +1,40 @@
+{
+  "name": "expensecalc",
+  "version": "1.0.0",
+  "description": "Calculate expenses",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koorzenb/ExpenseCalc.git"
+  },
+  "keywords": [],
+  "author": "Barend Koorzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koorzenb/ExpenseCalc/issues"
+  },
+  "homepage": "https://github.com/koorzenb/ExpenseCalc#readme",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "node-sass": "^7.0.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.15.1",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
