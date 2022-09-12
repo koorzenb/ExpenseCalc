@@ -1,14 +1,8 @@
 {
-  "name": "boilerplate",
+  "name": "expensecalc",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Andrew Mead",
-  "license": "MIT",
-  "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack",
-    "dev-server": "webpack-dev-server"
-  },
+  "description": "Expense Calculator",
+  "main": "webpack.config.js",
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",
@@ -32,5 +26,21 @@
     "validator": "8.0.0",
     "webpack": "3.1.0",
     "webpack-dev-server": "2.5.1"
-  }
+  },
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koorzenb/ExpenseCalc.git"
+  },
+  "keywords": [],
+  "author": "Barend Koorzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koorzenb/ExpenseCalc/issues"
+  },
+  "homepage": "https://github.com/koorzenb/ExpenseCalc#readme"
 }
