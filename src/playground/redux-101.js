@@ -20,8 +20,7 @@ const reset = () => ({
     type: 'RESET'
 });
 
-
-const store = createStore((state = {count: 0}, action) => {
+const countReducer = (state = {count: 0}, action) => {
     switch (action.type) {
         case 'INCREMENT':
             const incBy = typeof action.incBy == 'number' ? action.incBy : 1;
@@ -35,7 +34,9 @@ const store = createStore((state = {count: 0}, action) => {
         default:
             return state;
     }
-});
+}
+
+const store = createStore(countReducer);
 
 store.subscribe(() => {
     console.log(store.getState());
